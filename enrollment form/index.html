@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <!-- Bootstrap -->
+    <script crossorigin="anonymous" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Favicons -->
+    <link href="https://img.icons8.com/parakeet/48/000000/experimental-internet-parakeet.png" rel="icon"
+        type="image/png">
+    <title>Enrollment form</title>
+</head>
+
+<body>
+    <div class="outer-shadow header">
+        <h1>Student Enrollment Form</h1>
+        <form>
+            <label>Name :</label>
+            <input id="name" type="name" placeholder="Enter Name" />
+            <br>
+            <label>Email :</label>
+            <input id="email" type="email" placeholder="Enter Email" />
+            <br>
+            <label>Website :</label>
+            <input id="website" type="url" placeholder="Enter Url" />
+                 <p class="gender">
+                    Gender:
+                <input id="male" name="gender" type="radio" value="Male" checked />
+                <em>Male</em>
+                <input id="female" name="gender" type="radio" value="Female" />
+                <em>Female</em>
+            </p>
+            <p class="skill">
+                 Skill:
+                <input id="html" name="skills" type="radio" value="HTML" checked/>
+                <em>HTML</em>
+                <input id="css" name="skills" type="radio" value="CSS" />
+                <em>CSS</em>
+                <input id="js" name="skills" type="radio" value="JavaScript"/>
+                <em>JavaScript</em>
+        
+            </p>
+            <p>
+                <button type="enrolled-student" class="outer-shadow hover-in-shadow btn-1" id="submit">Enrolled
+                    Student</button>
+                <button type="clear" class="outer-shadow hover-in-shadow btn-2" onclick="ClearFields()">Clear</button>
+            </p>
+        </form>
+    </div>
+    <div class="vl"></div>
+    <div class="footer">
+        <h4>Enrolled Student</h4>
+    <div class="record">
+
+    </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

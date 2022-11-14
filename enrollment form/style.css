@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+:root{
+    --bg--black-900:#000000;
+    --bg--black-100:#dddddd;
+    --bg--black-50:#eff0f4;
+    --text-black-900:#000000;
+    --text-black-700:#555555;
+    --text-black-600:#666666;
+    --text-black-300:#bbbbbb;
+    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px  #f8f8f8;
+    --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+}
+.outer-shadow{
+    box-shadow: var(--outer-shadow);
+}
+.inner-shadow{
+    box-shadow: var(--inner-shadow);
+}
+.hover-in-shadow:hover{
+    box-shadow: var(--outer-shadow-0);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+.header{
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: var(--inner-shadow);
+  text-align: center;
+  margin-right: 5%;
+  margin-top: 36px;
+  height: 550px;
+  float: left;
+  }
+  .footer{
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: var(--inner-shadow);
+    text-align: center;
+    margin-top: 33px;
+    height: 550px;
+    float: left;
+  }
+  form {
+      margin-top: 70px;
+  }
+  label {
+    font-size: 25px;
+    font-family: 'ubuntu', sans-serif;
+    color: var(--text-black-600);
+  }
+  #name{
+    width: 250px;
+    height: 30px;
+    margin-left: 220px;
+    margin-bottom: 25px;
+  }
+  #email{
+    width: 250px;
+    height: 30px;
+    margin-left: 220px;
+    margin-bottom: 25px;
+  }
+  #website{
+    width: 250px;
+    height: 30px;
+    margin-left: 189px;
+    margin-bottom: 25px;
+  }
+  .gender{
+    font-size: 25px;
+    font-family: 'ubuntu', sans-serif;
+    color: var(--text-black-600);
+    margin-right: 38%;
+    margin-bottom: 36px;
+  }
+  .skill{
+    font-size: 25px;
+    font-family: 'ubuntu', sans-serif;
+    color: var(--text-black-600);
+    margin-right: 22%;
+  }
+  #female{
+  margin-left: 37px;
+  }
+  #css{
+    margin-left: 25px;
+  }
+  #js{
+    margin-left: 25px;
+  }
+
+.btn-1{
+    width: 140px;
+    height: 35px;
+    margin-top: 45px;
+    background: red;
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--text-black-900);
+    font-family: 'ubuntu', sans-serif;
+}
+.btn-2{
+    width: 130px;
+    height: 35px;
+    margin-left: 20px;
+    background: blue;
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--text-black-900);
+    font-family: 'ubuntu', sans-serif;
+}
+h1,h4{
+  width: 445px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  background: var(--text-black-600);
+  margin-left: 80px;
+  margin-top: 27px;
+  border-radius: 10px;
+}
+
+.vl {
+    border-left: 2px solid var(--text-black-300) ;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 5%;
+  }
+  
+
+
+
+
+
